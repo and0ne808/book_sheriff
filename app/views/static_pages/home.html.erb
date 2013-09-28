@@ -4,6 +4,31 @@
     <title>Book Sheriff | Home</title>
   </head>
   <body>
+
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    // init the FB JS SDK
+    FB.init({
+      appId      : 'YOUR_APP_ID',                        // App ID from the app dashboard
+      channelUrl : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel file for x-domain comms
+      status     : true,                                 // Check Facebook Login status
+      xfbml      : true                                  // Look for social plugins on the page
+    });
+
+    // Additional initialization code such as adding Event Listeners goes here
+  };
+
+  // Load the SDK asynchronously
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
   	<div style="background-image:
   	
   	url(http://wakpaper.com/large/Antique_wallpapers_281.jpg);
@@ -78,6 +103,24 @@
 	</div>
 
 </p>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+
+<p>
+	<div class="fb-like" data-href="https://www.facebook.com/thebooksheriff" data-width="450" data-show-faces="true" data-send="true"></div>
+	</p>
+
+
+
+<p>
+
+<a class="twitter-timeline" href="https://twitter.com/TheBookSheriff1" data-widget-id="383734831487528960">Tweets by @TheBookSheriff1</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</p>
+
+
 
     </div>
   </body>
