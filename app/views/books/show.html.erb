@@ -1,0 +1,89 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @book.name %>
+</p>
+
+<p>
+  <strong>Full title:</strong>
+  <%= @book.full_title %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @book.author %>
+</p>
+
+<p>
+  <strong>Publisher:</strong>
+  <%= @book.publisher %>
+</p>
+
+<p>
+  <strong>Version:</strong>
+  <%= @book.version %>
+</p>
+
+<p>
+  <strong>Isbn:</strong>
+  <%= @book.isbn %>
+</p>
+
+<p>
+  <strong>Date published:</strong>
+  <%= @book.date_published %>
+</p>
+
+<p>
+  <strong>Original price:</strong>
+  <%= @book.original_price %>
+</p>
+
+<p>
+  <strong>Sale price:</strong>
+  <%= @book.sale_price %>
+</p>
+
+<p>
+  <strong>Cover pic:</strong>
+  <%= @book.cover_pic %>
+</p>
+
+<p>
+  <strong>Tags:</strong>
+  <%= @book.tags %>
+</p>
+
+<p>
+  <strong>Popularity:</strong>
+  <%= @book.popularity %>
+</p>
+
+<p>
+  <strong>Time added:</strong>
+  <%= @book.time_added %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @book.description %>
+</p>
+
+<p>
+  <strong>In stock:</strong>
+  <%= @book.in_stock %>
+</p>
+
+<p>
+  <strong>Style:</strong>
+  <%= @book.style %>
+</p>
+
+<p>
+  <strong>Publication city:</strong>
+  <%= @book.publication_city %>
+</p>
+
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>
